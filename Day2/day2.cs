@@ -1,9 +1,7 @@
-using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Day2
@@ -14,15 +12,16 @@ namespace Day2
         {
 
             var lines = File.ReadLines("input.txt");
-            string alphabet = "abcdefghijklmnopqrstuvwxyz";
+            string alphabet = "abcdefghijklmnopqrstuvwxyz"; //TODO Aplbaheb interfavce
+
+
 
             foreach (var line in lines)
             {
 
-
                 foreach (char c in alphabet)
                 {
-                    //do something with letter
+                    Console.WriteLine(line.Count(x => x == c));
                 }
 
             }
