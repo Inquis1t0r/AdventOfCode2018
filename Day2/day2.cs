@@ -15,10 +15,10 @@ namespace Day2
 
             var lines = File.ReadLines("input.txt");
 
-            string alphabet = "abcdefghijklmnopqrstuvwxyz"; 
+            string alphabet = "abcdefghijklmnopqrstuvwxyz";
 
-            Boolean has2 = false;
-            Boolean has3 = false;
+            Boolean has2, check2 = false;
+            Boolean has3, check3 = false;
 
             int coeff1 = 0;
             int coeff2 = 0;
@@ -26,25 +26,37 @@ namespace Day2
 
             foreach (var line in lines)
             {
+  
 
                 foreach (char c in alphabet)
                 {
+
                     int counter = line.Count(x => x == c);
 
-                    if (counter == 3)
-                        has3 = true;
+                    while (check3 == !true)
+                    {
+                        if (counter == 3)
+                        {
+                            has3 = true;
+                            check3 = true;
+                            coeff2 += 1;
+                        }
+                    }
 
-                    if (counter == 2)
-                        has2 = true;
 
+                    while (check2 == !true)
+                    {
+                        if (counter == 2)
+                        {
+                            has2 = true;
+                            check2 = true;
+                            coeff1 += 1;
+                        }
+                    }
+
+                    Console.WriteLine(line + c);
                 }
-
-                if (has3 == true)
-                    coeff1 += 1;
-
-                if (has3 == true)
-                    coeff2 += 1;
-
+               
             }
             checksum = coeff1 * coeff2;
             Console.WriteLine(checksum);
