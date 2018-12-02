@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
+
 using System.Threading.Tasks;
 
 namespace Day2
@@ -14,13 +14,15 @@ namespace Day2
         {
 
             var lines = File.ReadLines("input.txt");
-            Regex regex = new Regex("");
+            string alphabet = "abcdefghijklmnopqrstuvwxyz";
 
             foreach (var line in lines)
             {
-                for (char c = 'A'; c <= 'Z'; c++)
+
+
+                foreach (char c in alphabet)
                 {
-                    int count = Regex.Matches(line, c).Count;
+                    //do something with letter
                 }
 
             }
