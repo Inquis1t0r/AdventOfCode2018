@@ -24,8 +24,8 @@ My solutions to the Advent Of Code 2018 programming puzzles.
 ```                                                                                     
 | Day | C# | Java | Swift | Python |
 |-----|----|------|-------|--------|
-| 1   |    |      |       |        |
-| 2   |    |      |       |        |
+| 1   | :white_check_mark:   |      |       |        |
+| 2   | :ballot_box_with_check:   |      |       |        |
 | 3   |    |      |       |        |
 | 4   |    |      |       |        |
 | 5   |    |      |       |        |
