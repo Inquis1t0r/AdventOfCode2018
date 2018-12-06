@@ -19,7 +19,8 @@ My solutions to the Advent Of Code 2018 programming puzzles.
             /`-....-'\          (--|__| _ |' _| _,   ,
        jgs /          \           _|  |(_)||(_|(_|\//_)
            `-.,____,.-'          (               _/
-                                                                                               
+                                                   
+                                                  -=[^Damn thats old ]=- ~Inqu
                                                                                                
 ```                                                                                     
 | Day | C# | Java | Swift | Python |
