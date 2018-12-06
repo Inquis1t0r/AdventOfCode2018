@@ -22,3 +22,13 @@ My solutions to the Advent Of Code 2018 programming puzzles.
                                                                                                
                                                                                                
 ```                                                                                     
+| Day | C# | Java | Swift | Python |
+|-----|----|------|-------|--------|
+| 1   |    |      |       |        |
+| 2   |    |      |       |        |
+| 3   |    |      |       |        |
+| 4   |    |      |       |        |
+| 5   |    |      |       |        |
+| 6   |    |      |       |        |
+|     |    |      |       |        |
+|     |    |      |       |        |
