@@ -50,9 +50,3 @@ My solutions to the Advent Of Code 2018 programming puzzles.
 | 23  |    |      |       |        |
 | 24  |    |      |       |        |
 | 25  |    |      |       |        |
-| 26  |    |      |       |        |
-| 27  |    |      |       |        |
-| 28  |    |      |       |        |
-| 29  |    |      |       |        |
-| 30  |    |      |       |        |
-| 31  |    |      |       |        |
